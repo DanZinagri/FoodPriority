@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FoodPri.ModTitle>Configurable Food Priority</FoodPri.ModTitle>
+
+  <!-- Mod settings page -->
+  <FoodPri.SettingsBlurb>Set how much every food is worth when a pawn decides what to eat. Values are written into the food definitions at startup, so nothing runs while you play.</FoodPri.SettingsBlurb>
+  <FoodPri.OpenEditor>Open the food priority editor</FoodPri.OpenEditor>
+  <FoodPri.ShowButton>Show the button along the bottom</FoodPri.ShowButton>
+  <FoodPri.ShowButtonTip>Puts a small bowl icon next to Architect and Animals that opens the editor. It takes half the width of a normal button, and it is drawn as part of a row the game draws anyway, so switching it off saves nothing.</FoodPri.ShowButtonTip>
+  <FoodPri.ShowModSource>Show which mod each food comes from</FoodPri.ShowModSource>
+  <FoodPri.ShowModSourceTip>Adds the mod's name in grey after each food in the editor, lets the search match it, and adds sorting by mod.</FoodPri.ShowModSourceTip>
+  <!-- {0} = number of foods with a changed value -->
+  <FoodPri.ChangedCount>{0} changed</FoodPri.ChangedCount>
+
+  <!-- Editor toolbar -->
+  <FoodPri.Search>Search</FoodPri.Search>
+  <!-- {0} = current filter name -->
+  <FoodPri.Show>Show: {0}</FoodPri.Show>
+  <!-- {0} = current sort name -->
+  <FoodPri.SortBy>Sort: {0}</FoodPri.SortBy>
+  <FoodPri.RecommendedDefaults>Recommended defaults</FoodPri.RecommendedDefaults>
+  <FoodPri.RecommendedDefaultsTip>What the mod starts with: the rules switched on at their defaults - freshly cooked meals at 5 and up, ranked by how good they are, baby food at 2, preserved food and rations at -50, raw ingredients at -100, and berries, milk and emergency food left where the game already keeps them - and nothing set by hand.\n\nCaravan ticks and animal scores are left as they are.</FoodPri.RecommendedDefaultsTip>
+  <FoodPri.RecommendedDefaultsConfirm>Put the rules back to their defaults and clear every colonist score you have set by hand?</FoodPri.RecommendedDefaultsConfirm>
+  <FoodPri.ResetEverything>Back to vanilla</FoodPri.ResetEverything>
+  <FoodPri.ResetEverythingTip>Switch the rules off and drop everything set by hand - colonist scores, animal scores and caravan ticks - leaving each food exactly as its own mod shipped it.</FoodPri.ResetEverythingTip>
+  <FoodPri.ResetEverythingConfirm>Put every food back to the value its own mod shipped with?</FoodPri.ResetEverythingConfirm>
+  <FoodPri.NothingMatches>No food matches this search.</FoodPri.NothingMatches>
+  <FoodPri.EaterColonists>Colonists</FoodPri.EaterColonists>
+  <FoodPri.EaterAnimals>Animals</FoodPri.EaterAnimals>
+  <FoodPri.EaterColonistsTip>What colonists, prisoners and slaves reach for. The rules apply here.</FoodPri.EaterColonistsTip>
+  <FoodPri.EaterAnimalsTip>What tame animals reach for, whether they feed themselves or a handler feeds them. Animals read a separate value off every food, so changes here never affect colonists. They have no mood, so flavour plays no part in their score, and no rules apply here.</FoodPri.EaterAnimalsTip>
+  <FoodPri.Rules>Rules</FoodPri.Rules>
+  <FoodPri.RulesTip>The tiers every colonist food is sorted into, and the score each tier gets. They apply to every food you have not set by hand, including foods from mods you add later.</FoodPri.RulesTip>
+
+  <FoodPri.FilterAll>Everything</FoodPri.FilterAll>
+  <FoodPri.FilterMeals>Meals</FoodPri.FilterMeals>
+  <FoodPri.FilterRaw>Raw food</FoodPri.FilterRaw>
+  <FoodPri.FilterDrugs>Drugs</FoodPri.FilterDrugs>
+  <FoodPri.FilterOther>Other</FoodPri.FilterOther>
+  <FoodPri.FilterChanged>Changed only</FoodPri.FilterChanged>
+
+  <FoodPri.SortScore>Score</FoodPri.SortScore>
+  <FoodPri.SortName>Name</FoodPri.SortName>
+  <FoodPri.SortCategory>Kind</FoodPri.SortCategory>
+  <FoodPri.SortSource>Mod</FoodPri.SortSource>
+
+  <!-- Column headers -->
+  <FoodPri.HeaderFood>Food</FoodPri.HeaderFood>
+  <FoodPri.HeaderScore>Score</FoodPri.HeaderScore>
+  <FoodPri.HeaderAnimalScore>Animal score</FoodPri.HeaderAnimalScore>
+  <FoodPri.CaravanHeader>Caravan</FoodPri.CaravanHeader>
+  <FoodPri.CaravanTip>Ticked: eaten last on the road.\n\nCaravans ignore the score in this window. Travelling pawns pick by the food's own quality instead, so nothing you set here changes what they eat. This tick is the one thing that does: it drops the food to the bottom of that order, to be eaten only once everything better is gone.\n\nThe game itself only ticks this for kibble. Pemmican and packaged survival meals are not ticked, which is why a caravan will happily eat its way through them - tick them here if you would rather they were saved for when there is nothing else.</FoodPri.CaravanTip>
+
+  <!-- Rows -->
+  <!-- {0} = the value the food's own mod shipped with -->
+  <FoodPri.ResetToDefault>Reset to {0}</FoodPri.ResetToDefault>
+  <!-- {0} = mod name -->
+  <FoodPri.TipSource>From: {0}</FoodPri.TipSource>
+  <!-- {0} = preferability name -->
+  <FoodPri.TipPreferability>Quality: {0}</FoodPri.TipPreferability>
+  <!-- {0} = nutrition per item -->
+  <FoodPri.TipNutrition>Nutrition: {0}</FoodPri.TipNutrition>
+  <!-- {0} = days before it starts to rot -->
+  <FoodPri.TipShelfLife>Keeps for {0} days</FoodPri.TipShelfLife>
+  <FoodPri.TipNeverRots>Never spoils</FoodPri.TipNeverRots>
+  <!-- Score breakdown. {0} = a number -->
+  <FoodPri.TipScore>Score: {0}</FoodPri.TipScore>
+  <FoodPri.TipScorePriority>   priority {0}</FoodPri.TipScorePriority>
+  <FoodPri.TipScoreFlavour>   flavour {0}</FoodPri.TipScoreFlavour>
+  <FoodPri.TipScoreEmergency>   emergency food {0}</FoodPri.TipScoreEmergency>
+  <FoodPri.TipAnimalScore>Animal score: {0}</FoodPri.TipAnimalScore>
+  <FoodPri.TipSetByHand>Set by you</FoodPri.TipSetByHand>
+  <!-- {0} = tier name -->
+  <FoodPri.TipSetByRule>Set by rule: {0}</FoodPri.TipSetByRule>
+  <FoodPri.TipAsShipped>As its mod shipped it</FoodPri.TipAsShipped>
+  <FoodPri.TipShipped>Without this mod: {0}</FoodPri.TipShipped>
+  <FoodPri.CorpsesLabel>Corpses</FoodPri.CorpsesLabel>
+  <!-- {0} = number of corpse kinds -->
+  <FoodPri.CorpsesTip>All {0} kinds of corpse, from every mod that adds a creature, share this one value.</FoodPri.CorpsesTip>
+  <!-- {0} = number of fertilized egg kinds -->
+  <FoodPri.EggsFertilizedLabel>Eggs (fertilized)</FoodPri.EggsFertilizedLabel>
+  <FoodPri.EggsFertilizedTip>All {0} kinds of fertilized egg, from every mod that adds a creature, share this one value.</FoodPri.EggsFertilizedTip>
+  <!-- {0} = number of unfertilized egg kinds -->
+  <FoodPri.EggsUnfertilizedLabel>Eggs (unfertilized)</FoodPri.EggsUnfertilizedLabel>
+  <FoodPri.EggsUnfertilizedTip>All {0} kinds of unfertilized egg, from every mod that adds a creature, share this one value.</FoodPri.EggsUnfertilizedTip>
+  <!-- {0} = lowest score, {1} = highest score -->
+  <FoodPri.GroupScoreRange>Score: {0} to {1}, depending on the kind</FoodPri.GroupScoreRange>
+  <FoodPri.TipNeverEaten>Never eaten for nutrition. The score has no effect on this one.</FoodPri.TipNeverEaten>
+
+  <FoodPri.Footer>The score is what a food is worth before distance, and one point is worth one tile of walking: a food twenty points higher gets picked over one twenty tiles closer. Flavour is part of a colonist's score, which is why two meals at the same priority can still differ. Green: set by you. Blue: set by a rule. Changes apply immediately; click a food's name for its info card.</FoodPri.Footer>
+
+  <!-- Rules window -->
+  <FoodPri.RulesTitle>Food rules</FoodPri.RulesTitle>
+  <FoodPri.RulesBlurb>Every colonist food is sorted into a tier, and each tier gives the score below. A food you set by hand in the editor ignores its rule. Rules are worked out again every time the game starts, so foods from a mod you add later land in the right tier without you touching them.</FoodPri.RulesBlurb>
+  <FoodPri.RulesEnabled>Use the rules</FoodPri.RulesEnabled>
+  <FoodPri.RulesEnabledTip>Off: every food you have not set by hand keeps the value its own mod shipped with.</FoodPri.RulesEnabledTip>
+  <!-- {0} = tier name, {1} = number of foods in it -->
+  <FoodPri.RuleTier>{0} ({1} foods)</FoodPri.RuleTier>
+  <FoodPri.RuleKeepsFlavour>Plus the meal's flavour bonus</FoodPri.RuleKeepsFlavour>
+  <FoodPri.RuleKeepsFlavourTip>Ticked: fine and lavish meals keep what their flavour is worth on top, so a colonist still walks past a simple meal for a lavish one. Bad flavour is never subtracted, so even an awful fresh meal stays ahead of the rations.</FoodPri.RuleKeepsFlavourTip>
+  <FoodPri.RulePreservedDays>Counts as a ration if it keeps for at least this many days</FoodPri.RulePreservedDays>
+  <FoodPri.RulePreservedDaysTip>A meal that takes this long or longer to start rotting is treated as a ration, and so is anything that never rots. Pemmican keeps for 70 days and packaged survival meals never spoil; a fresh simple meal rots in 4.</FoodPri.RulePreservedDaysTip>
+  <FoodPri.RulesUntouched>Drugs, emergency-only food such as corpses and hay, and anything never eaten for nutrition have no tier: they keep the value their mod shipped with unless you set them by hand.</FoodPri.RulesUntouched>
+  <FoodPri.RulesRestoreDefaults>Restore rule defaults</FoodPri.RulesRestoreDefaults>
+
+  <FoodPri.TierNone>No tier</FoodPri.TierNone>
+  <FoodPri.TierFreshMeal>Fresh meals</FoodPri.TierFreshMeal>
+  <FoodPri.TierFreshMealTip>Cooked food that spoils sooner than the ration threshold below. The one tier ranked within itself.</FoodPri.TierFreshMealTip>
+  <FoodPri.TierBabyFood>Baby food</FoodPri.TierBabyFood>
+  <FoodPri.TierBabyFoodTip>Anything babies can eat that tastes bad to everyone else, from any mod. Milk and insect jelly do not count. Babies have no mood, so a high score here means babies strongly prefer it.</FoodPri.TierBabyFoodTip>
+  <FoodPri.TierPreserved>Rations and preserved food</FoodPri.TierPreserved>
+  <FoodPri.TierPreservedTip>Meals that keep for a long time or never rot: pemmican, survival packs and any mod's equivalent. Flat on purpose, so a delicious ration cannot climb back above a fresh meal on taste.</FoodPri.TierPreservedTip>
+  <FoodPri.TierRaw>Raw ingredients</FoodPri.TierRaw>
+  <FoodPri.TierRawTip>Food that is unpleasant eaten raw: potatoes, rice, corn, meat, eggs. Flat and above emergency food, so a starving pawn takes a potato before a corpse.</FoodPri.TierRawTip>
+  <FoodPri.TierRawTasty>Tasty raw food</FoodPri.TierRawTasty>
+  <FoodPri.TierRawTastyTip>Food that is fine eaten raw: berries, milk, and any mod's fruit. Off by default, so it keeps the game's own score of 0 - above the rations and below fresh meals. Berries spoil in two weeks, and a tribal start lives on them, so they are eaten before the pemmican rather than left to rot.</FoodPri.TierRawTastyTip>
+
+</LanguageData>

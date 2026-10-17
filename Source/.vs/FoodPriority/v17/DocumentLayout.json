@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodpriority\\source\\foodprioritysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|solutionrelative:foodprioritysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodpriority\\source\\foodprioritypresets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|solutionrelative:foodprioritypresets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodpriority\\source\\dialog_foodpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|solutionrelative:dialog_foodpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodpriority\\source\\foodprioritymod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|solutionrelative:foodprioritymod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodpriority\\source\\foodpriorityapplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71A9BEB-4BA4-2BC1-BEF8-1AC4973AC891}|FoodPriority.csproj|solutionrelative:foodpriorityapplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityWidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodPriorityWidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodPriorityWidget.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityWidget.cs",
+              "RelativeDocumentMoniker": "FoodPriorityWidget.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityWidget.cs",
+              "RelativeToolTip": "FoodPriorityWidget.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAUwB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:03:12.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodPrioritySettings.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPrioritySettings.cs",
+              "RelativeDocumentMoniker": "FoodPrioritySettings.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPrioritySettings.cs",
+              "RelativeToolTip": "FoodPrioritySettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:03:11.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodPriorityPresets.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityPresets.cs",
+              "RelativeDocumentMoniker": "FoodPriorityPresets.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityPresets.cs",
+              "RelativeToolTip": "FoodPriorityPresets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:03:10.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodPriorityMod.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityMod.cs",
+              "RelativeDocumentMoniker": "FoodPriorityMod.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityMod.cs",
+              "RelativeToolTip": "FoodPriorityMod.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:03:09.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodPriorityApplier.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityApplier.cs",
+              "RelativeDocumentMoniker": "FoodPriorityApplier.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\FoodPriorityApplier.cs",
+              "RelativeToolTip": "FoodPriorityApplier.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:03:09.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dialog_FoodPriority.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\Dialog_FoodPriority.cs",
+              "RelativeDocumentMoniker": "Dialog_FoodPriority.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodPriority\\Source\\Dialog_FoodPriority.cs",
+              "RelativeToolTip": "Dialog_FoodPriority.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T06:03:07.879Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>FoodPriority</defName>
+    <label>food priority</label>
+    <description>Set what your colonists reach for first, food by food.</description>
+    <workerClass>FoodPriority.MainButtonWorker_FoodPriority</workerClass>
+    <order>45</order>
+    <validWithoutMap>true</validWithoutMap>
+    <!-- Icon instead of a label, and half the width of a normal button, so it costs the bottom bar as
+         little room as possible. The label is still what the tooltip is titled with. -->
+    <iconPath>UI/Buttons/MainButtons/FoodPriority</iconPath>
+    <minimized>True</minimized>
+  </MainButtonDef>
+
+</Defs>

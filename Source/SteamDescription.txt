@@ -1,0 +1,52 @@
+[h1]Configurable Food Priority[/h1]
+
+Decide what your pawns reach for first. Every food in your modlist sits in one sortable list, showing the score it gets picked by, and you can change any of them.
+
+[h2]How pawns pick food[/h2]
+Every food a pawn could eat gets a score, and the highest score gets eaten. One point of score is worth one tile of walking: a food twenty points higher gets picked over one twenty tiles closer.
+
+The score shown is the game's real one, not a slider with its own units. It is what the food is worth for its own sake, plus what the game adds for how it tastes, plus the penalty for emergency-only food. Hover any food for the breakdown.
+
+[h2]Out of the box[/h2]
+[list]
+[*][b]Fresh meals:[/b] 5, plus their flavour bonus, so a lavish meal still beats a simple one.
+[*][b]Baby food:[/b] 2, just under the meals.
+[*][b]Tasty raw food[/b] (berries, milk, a mod's fruit): left at the game's own 0. It spoils, and a tribal start lives on berries, so it gets eaten before the pemmican.
+[*][b]Rations and preserved food:[/b] -50. Anything that keeps for 15 days or never spoils counts, so a mod's hardtack is treated like pemmican with no patch needed. Their flavour bonus is cancelled, so a delicious ration can't climb back above a fresh meal.
+[*][b]Raw ingredients[/b] (potatoes, rice, meat): -100.
+[*][b]Emergency food[/b] (corpses, hay): left where the game keeps it, below everything else.
+[/list]
+
+[h2]Rules, not one-off values[/h2]
+Those tiers are rules, and every food is sorted into them again each time the game starts. Add a food mod halfway through a playthrough and its meals, rations and raw ingredients land in the right tier on their own.
+
+In the rules window you can change each tier's score, switch tiers off, and set how long a food has to keep before it counts as a ration.
+
+Any food you set by hand ignores its rule. The list shows which is which: [b]green[/b] for values you set, [b]blue[/b] for values from a rule.
+
+[h2]Features[/h2]
+[list]
+[*][b]Editor[/b] listing the same foods a food policy offers, so no grass, trees or other things nobody eats off a plate. Search, filter by kind, sort, and nudge a food above or below its neighbour with arrows. Corpses, fertilized eggs and unfertilized eggs get one row each instead of one per creature, and a setting shows which mod each food comes from.
+[*][b]Animals too:[/b] animals read a separate value off every food, and the editor has a second list for it. Have the dogs pass over the pemmican, or finish the kibble before the hay. It is a preference, not a ban: what an animal may eat at all is still up to its food restriction. Nothing about animals changes unless you set it.
+[*][b]Caravan toggle:[/b] caravans ignore the score and pick by the food's quality class instead. A tick per food marks it as eaten last on the road, using the game's own flag (vanilla only sets it on kibble).
+[*][b]Raw-food genes kept intact:[/b] for pawns whose genes let them eat raw food without minding (Robust Digestion, and the many mod xenotypes built on it), vanilla borrows the simple meal's priority as their raw-food bonus. This mod pins that bonus to the original value, so changing the simple meal never changes how those pawns feel about raw food.
+[*][b]One-click resets:[/b] back to the recommended setup, or straight back to vanilla.
+[/list]
+
+[h2]Performance[/h2]
+Nothing runs while you play. Your values are written into the food definitions at startup, into the same fields the game already reads, so the food-picking code never calls into this mod. A hundred-pawn colony costs the same as an idle one: nothing.
+
+There is one Harmony patch, and it is also applied once at startup. It replaces a single value inside the game's own method (the raw-food gene bonus above) rather than adding code around it, so picking food costs no more than in vanilla. If another mod has already changed that spot, it logs a warning and leaves it alone.
+
+[h2]Where to find it[/h2]
+A small bowl icon on the bottom bar, next to Architect and Animals. It can be hidden in the mod settings, which open the editor too.
+
+[h2]Compatibility[/h2]
+[list]
+[*][b]Requires[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url]. RimWorld 1.7 only.
+[*][b]Safe to add or remove mid-save.[/b] Nothing is stored in your save. Removing the mod puts every food back to its original value.
+[*][b]Diet mods are fine.[/b] Diets that rule foods out (Big and Small carnivores and herbivores, More Phytokin Xenotypes and others) do so before scoring, so this mod's order still holds among the foods a pawn is allowed.
+[*][b]Don't combine it with other food-priority mods,[/b] such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2899127245]Prioritize Meals over Preserved Foods[/url], which inspired this one. They write the same fields, and whichever loads last wins.
+[/list]
+
+Changes apply the moment you make them. No restart, no reload.
