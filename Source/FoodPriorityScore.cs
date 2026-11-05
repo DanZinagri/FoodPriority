@@ -110,6 +110,25 @@ namespace FoodPriority
             return cached;
         }
 
+        // What a fresh meal's flavour counts for under the rules. A meal can declare itself fine or lavish
+        // and still have no taste thought, because its mood comes from code that runs after eating (VCE's
+        // haute meal). The game cannot see that mood, so the meal is credited with what vanilla's own meal
+        // of that preferability is worth instead of scoring like a simple one.
+        public static float FlavourForRules(ThingDef def)
+        {
+            float floor = 0f;
+            switch (def.ingestible.preferability)
+            {
+                case FoodPreferability.MealFine:
+                    floor = MoodEffect(DefDatabase<ThoughtDef>.GetNamedSilentFail("AteFineMeal"));
+                    break;
+                case FoodPreferability.MealLavish:
+                    floor = MoodEffect(DefDatabase<ThoughtDef>.GetNamedSilentFail("AteLavishMeal"));
+                    break;
+            }
+            return System.Math.Max(floor, Taste(def));
+        }
+
         private static float MoodEffect(ThoughtDef thought)
         {
             if (thought?.stages == null || thought.stages.Count == 0 || thought.stages[0] == null)

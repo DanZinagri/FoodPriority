@@ -148,7 +148,7 @@ namespace FoodPriority
                     // simple one is the whole reason a colonist walks past the simple one. Bad flavour
                     // is dropped, so even an awful meal stays ahead of the rations: eat what will spoil,
                     // save what will not.
-                    score = freshMeal + (freshMealKeepsFlavour ? Mathf.Max(0f, FoodPriorityScore.Taste(def)) : 0f);
+                    score = freshMeal + (freshMealKeepsFlavour ? Mathf.Max(0f, FoodPriorityScore.FlavourForRules(def)) : 0f);
                     return true;
                 case FoodTier.BabyFood:
                     score = babyFood;
