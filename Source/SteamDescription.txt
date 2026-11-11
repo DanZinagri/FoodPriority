@@ -11,7 +11,7 @@ The score shown is the game's real one, not a slider with its own units. It is w
 [list]
 [*][b]Fresh meals:[/b] 5, plus their flavour bonus, so a lavish meal still beats a simple one.
 [*][b]Baby food:[/b] 2, just under the meals.
-[*][b]Tasty raw food[/b] (berries, milk, a mod's fruit): left at the game's own 0. It spoils, and a tribal start lives on berries, so it gets eaten before the pemmican.
+[*][b]Tasty raw food[/b] (berries, milk, a mod's fruit): left at the game's own 0. It spoils, and a tribal start lives on berries, so it gets eaten before the pemmican once a pawn is urgently hungry (the game keeps raw food off the menu until then, so a merely hungry pawn still reaches for a meal, insect jelly or pemmican first).
 [*][b]Rations and preserved food:[/b] -50. Anything that keeps for 15 days or never spoils counts, so a mod's hardtack is treated like pemmican with no patch needed. Their flavour bonus is cancelled, so a delicious ration can't climb back above a fresh meal.
 [*][b]Raw ingredients[/b] (potatoes, rice, meat): -100.
 [*][b]Emergency food[/b] (corpses, hay): left where the game keeps it, below everything else.

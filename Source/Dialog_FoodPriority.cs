@@ -374,10 +374,11 @@ namespace FoodPriority
 
             // The slider rounds and clamps whatever it is handed, so an untouched one hands back the
             // rounded value rather than the stored one. Compare against that, or a food sitting at -35.7
-            // or at 400 would quietly rewrite itself every frame.
-            float shown = Mathf.Clamp(value, -SliderRange, SliderRange);
-            float echo = Mathf.Round(shown);
-            float slid = Widgets.HorizontalSlider(sliderRect, shown, -SliderRange, SliderRange, true, null, null, null, 1f);
+            // or at 400 would quietly rewrite itself every frame. Hand it the rounded value too: it plays
+            // the drag-slider click whenever what it returns differs from what it was given, so a
+            // fractional score (most meals, once taste is counted) made the row click every frame.
+            float echo = Mathf.Round(Mathf.Clamp(value, -SliderRange, SliderRange));
+            float slid = Widgets.HorizontalSlider(sliderRect, echo, -SliderRange, SliderRange, true, null, null, null, 1f);
             if (Mathf.Abs(slid - echo) > 0.01f)
             {
                 FoodPriorityScore.Set(def, eater, slid);

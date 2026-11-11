@@ -112,8 +112,8 @@
   <FoodPri.TierPreserved>Rations and preserved food</FoodPri.TierPreserved>
   <FoodPri.TierPreservedTip>Meals that keep for a long time or never rot: pemmican, survival packs and any mod's equivalent. Flat on purpose, so a delicious ration cannot climb back above a fresh meal on taste.</FoodPri.TierPreservedTip>
   <FoodPri.TierRaw>Raw ingredients</FoodPri.TierRaw>
-  <FoodPri.TierRawTip>Food that is unpleasant eaten raw: potatoes, rice, corn, meat, eggs. Flat and above emergency food, so a starving pawn takes a potato before a corpse.</FoodPri.TierRawTip>
+  <FoodPri.TierRawTip>Food that is unpleasant eaten raw: potatoes, rice, corn, meat, eggs. Flat and above emergency food, so a starving pawn takes a potato before a corpse. The game only lets a pawn eat raw food once it is urgently hungry, so this score only matters then.</FoodPri.TierRawTip>
   <FoodPri.TierRawTasty>Tasty raw food</FoodPri.TierRawTasty>
-  <FoodPri.TierRawTastyTip>Food that is fine eaten raw: berries, milk, and any mod's fruit. Off by default, so it keeps the game's own score of 0 - above the rations and below fresh meals. Berries spoil in two weeks, and a tribal start lives on them, so they are eaten before the pemmican rather than left to rot.</FoodPri.TierRawTastyTip>
+  <FoodPri.TierRawTastyTip>Food that is fine eaten raw: berries, milk, and any mod's fruit. Off by default, so it keeps the game's own score of 0 - above the rations and below fresh meals. The game only lets a pawn eat raw food once it is urgently hungry, so this score only matters then: a merely hungry pawn eats any meal, insect jelly or pemmican first. Once urgently hungry, berries are eaten before the pemmican rather than left to rot.</FoodPri.TierRawTastyTip>
 
 </LanguageData>
